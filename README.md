@@ -1,5 +1,12 @@
 # Yapi-Docker 镜像
 
+> 镜像使用
+
+```shell
+docker run --rm -p 3000:3000 -v $(PWD)/config.json:/app/config.json --name yapi ccr.ccs.tencentyun.com/comeonjy/yapi:v1.9.2
+```
+访问 [http://127.0.0.1:3000](http://127.0.0.1:3000) 试试
+
 > 构建过程
 
 ```shell
