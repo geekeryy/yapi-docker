@@ -7,6 +7,10 @@ docker run --rm -p 3000:3000 -v $(PWD)/config.json:/app/config.json --name yapi 
 ```
 访问 [http://127.0.0.1:3000](http://127.0.0.1:3000) 试试
 
+默认账号：admin@admin.com
+
+默认密码：ymfe.org
+
 > 构建过程
 
 ```shell
